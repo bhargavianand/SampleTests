@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Sequence_Test1">
+    <classes>
+      <class name="base.NewTest">
+      <methods>
+        <include name="f1Test" />
+        <include name="f2Test" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Sequence_Test2">
+    <classes>
+      <class name="base.NewTest">
+     <methods>
+        <include name="f3Test" />
+         <include name="f4Test" />       
+      </methods>
+   </class>
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

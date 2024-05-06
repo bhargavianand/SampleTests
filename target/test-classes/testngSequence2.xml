@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+ <test name="My suite">
+ <groups>
+    <dependencies>
+      <group name="Regression" depends-on="Sanity" />
+    </dependencies>
+  </groups>
+  <classes>
+      <class name="base.testng_dependencies3"/>
+   </classes> 
+ </test>
+</suite> <!-- Suite -->

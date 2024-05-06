@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ REGRSSION TEST SUITE ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<suite name="Regression Test Suite">
+	<parameter name="firstName" value="zya"></parameter>
+	<parameter name="datasource" value="excelsheet"></parameter>
+	<parameter name="jdbc-driver" value="jdbcDriver122"></parameter>
+	<test name="params testing">
+	
+	<classes>
+	<class name="base.ParamsTest"/>
+	</classes>
+	</test>
+</suite>

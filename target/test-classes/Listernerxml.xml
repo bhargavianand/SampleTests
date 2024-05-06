@@ -1,0 +1,11 @@
+<suite name="Regression Test Suite">
+	<test name="HomePage Tests">
+		<listeners>  
+<listener class-name="base.TestListerns_Testng"/>  
+</listeners>  
+		<classes>
+			<class name="base.ParamsTest" />
+			
+		</classes>
+	</test>
+	</suite>

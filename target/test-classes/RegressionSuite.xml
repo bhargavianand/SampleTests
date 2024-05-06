@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ REGRSSION TEST SUITE ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<suite name="Regression Test Suite">
+	<groups>
+		<run>
+			<include name="RegressionTest" />
+			<include name="SystemTest" />
+		</run>
+	</groups>
+	
+	<!-- ~~~~~~~~~~~~~~ TESTS FOR HOME PAGE ~~~~~~~~~~~~~~ -->
+	<test name="HomePage Tests">
+		<classes>
+			<class name="base.HomePageTests" />
+		</classes>
+	</test>
+
+	<!-- ~~~~~~~~~~~~~~ TESTS FOR PRODUCT PAGE ~~~~~~~~~~~~~~ -->
+	<!-- <test name="Product Page Tests"> <classes> <class name="base.HomePageTests" 
+		/> </classes> </test> -->
+
+</suite>
